@@ -19,6 +19,7 @@ gem "webpacker", "~> 4.0"
 
 group :development, :test do
   gem "factory_bot"
+  gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "master"
   gem "pry-byebug"
   gem "rspec-core", git: "https://github.com/rspec/rspec-core"
   gem "rspec-expectations", git: "https://github.com/rspec/rspec-expectations"
